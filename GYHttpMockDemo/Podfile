@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs'
+source 'http://git.guazi-corp.com/wuxian-ios/ios_specs.git'
+
+target 'GYHttpMockDemo' do
+  pod 'GYHttpMock'
+#  pod 'illidan'
+  pod 'SDWebImage', '4.0.0'
+  pod 'AFNetworking'
+#  pod 'GZHTTPServer'
+end
